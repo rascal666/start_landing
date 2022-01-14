@@ -15,7 +15,7 @@
 
 // кнопки для ссылки
 
-.section-button a {
+.section-button {
 	@include btn(14px, #fff, #fff, $forButton, 17px 40px);
 	border-radius: 100px;
 	color: inherit;
@@ -24,36 +24,36 @@
 	align-items: center;
 }
 
-.section-buttonAccent a {
+.section-buttonAccent {
 	@include btn(14px, $accent, $accentColor, #fff, 17px 40px);
 	border-radius: 100px;
 	filter: drop-shadow(0px 4px 16px rgba(29, 66, 98, 0.15));
 }
 
-.section-buttonToolbar a {
+.section-buttonToolbar {
 	@include btn(14px, #ffffff00, #fff, #fff, 8px 30px);
-	border-radius: 5px;
+	border-radius: 100px;
 	max-width: 200px;
 	overflow: hidden;
 }
 
-.section-buttonFooter a {
+.section-buttonFooter {
 	@include btn(14px, #ffffff00, #fff, #fff, 8px 30px);
-	border-radius: 5px;
+	border-radius: 100px;
 }
 
-.section-button a:hover {
+.section-button:hover {
 	cursor: pointer;
 	background: $accent;
 	color: #fff !important;
 	border: $accent;
 }
-.section-buttonAccent a:hover {
+.section-buttonAccent:hover {
 	cursor: pointer;
 	background: rgba(255, 255, 255, 0);
 	color: $accentColor !important;
 }
-.section-buttonToolbar a:hover {
+.section-buttonToolbar:hover {
 	cursor: pointer;
 	background: $forButton;
 	color: #fff !important;
@@ -95,10 +95,11 @@
 	font-size: 18px;
 	.list__li {
 		position: relative;
-		padding-left: 30px;
+		padding-left: 50px;
 		display: grid;
 		align-content: center;
-		min-height: 18px;
+		min-height: 30px;
+	
 	}
 	.list__li_circle {
 		position: relative;
@@ -110,10 +111,12 @@
 	.list__li::before {
 		content: '';
 		position: absolute;
-		width: 18px;
+		width: 30px;
 		left: 0;
-		height: 15px;
-		background: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/291934/content_vector_120.png') no-repeat 100% 100% / cover;
+		height: 30px;
+		background: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/298123/content_subtract.png') no-repeat 100% 100% / cover;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 	.list__li_gray::before {
 		background: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/292008/content_vector_d120.png') no-repeat 100% 100% / cover;
@@ -145,20 +148,21 @@
 	.section-btns {
 		grid-template-columns: 1fr;
 	}
-	.section-buttonToolbar a {
+	.section-buttonToolbar {
 		padding: 8px 20px;
 		font-size: 12px;
 	}
-	.section-buttonFooter a {
+	.section-buttonFooter {
 		letter-spacing: 0.06em;
 		font-size: 11px;
+		padding: 8px 15px;
 	}
 
 	.logo {
 		width: 100px;
 	}
 	.section_h1 {
-		font-size: 22px;
+		font-size: 28px;
 	}
 	.section_h2 {
 		font-size: 22px;

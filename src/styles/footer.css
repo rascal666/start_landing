@@ -24,6 +24,9 @@
 .numder_futer {
     color: #fff !important;
 }
+.numder_futer img{
+	max-width:40px;
+}
 
 .agreement {
   justify-self: end;

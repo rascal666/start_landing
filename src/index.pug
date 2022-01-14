@@ -6,28 +6,20 @@ html(lang="ru")
 	head
 		meta(charset="utf-8")
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-		title= "все включено"
+		title= "оставить товары"
 	body.js-body
-		.main_content.main_content-pp
+		.main_content
 			header
 				include ./modules/toolbar.pug
 				.header
 					.content
 						.header__wrapper
 							.header__text
-								.header__heading.section_h1 заголовок
+								.header__heading.section_h1 Спасибо за вашу заявку!
 								.offer
-									p Каждому, кто успеет в декабре:
-									.list 	
-										.list__li продлить текущий пакет размещения на 12 месяцев
-										.list__li подключить более приоритетный пакет на 12 месяцев
-										.list__li перейти на тариф «Бизнес» с оплатой годового размещения
-									p подарим бонус по эффективной поддержке бизнеса в 2022 году.
-									.line-note dvdvdvdvdvdv
-								.header__btns 	
-									.section-buttonAccent {crm_analytics:click_link(Выбрать бонус,#tariff,network_actions,ПП_НГ_Бонусы_curData)}
-									+button('{crm_analytics:click_link(Расскажите мне про бонусы,#order,network_actions,ПП_НГ_Консультация_Бонусы_curData)}', "Расскажите мне про бонусы","section-button")
+									p Заявка на перемещение товаров в архив портала Пульс цен зафиксирована 
+									img.mobile__img(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/298124/content_illyustratsiya.png")
 							.header__img
-								img(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/291833/content_frame_1.png")
-		include ./modules/footer.pug
-	p {crm_analytics:show_page(network_actions,ПП_Новый_год_Бонусы_curData)}
+								img(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/298124/content_illyustratsiya.png")
+		//- include ./modules/footer.pug
+	p {crm_analytics:show_page(network_actions,НК_Оставить_товары_curData)}
