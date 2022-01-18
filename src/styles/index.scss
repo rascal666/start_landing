@@ -4,7 +4,6 @@
 .main_content {
 	@include mainContent(16px, rgb(255, 255, 255));
 	background: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/298122/content_group_1048.png') no-repeat 2% 0%/1920px;
-	height: 100vh;
 }
 
 * {
@@ -26,17 +25,6 @@
 	}
 	.mobile__img {
 		display: none;
-	}
-	.list {
-		color: $main_text_color;
-		font-size: 16px;
-		margin-top: 7vw;
-		.list__list {
-			@include grid(15px, repeat(auto-fit, minmax(285px, 1fr)));
-		}
-	}
-	.section-buttonAccent {
-		margin-top: 1vw;
 	}
 }
 .offer {
@@ -65,17 +53,9 @@
 }
 
 @media (max-width: 1440px) {
-	.main_content {
-		background: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/298122/content_group_1048.png') no-repeat 55% 0%/1920px;
-		height: auto;
-	}
 }
 
 @media (max-width: 1366px) {
-	.main_content {
-		background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/298122/content_group_1048.png) no-repeat 62% 0%/1920px;
-		height: auto;
-	}
 }
 
 @media (max-width: 1024px) {
@@ -106,20 +86,12 @@
 		display: grid;
 		max-width: 100%;
 	}
-	.list__list {
-		font-size: 14px;
-	}
 }
 
 @media (max-width: 800px) {
 }
 
 @media (max-width: 660px) {
-	.main_content {
-		background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/298122/content_group_1048.png) no-repeat 14% 0%/1920px;
-		height: auto;
-		padding-bottom: 20px;
-	}
 }
 @media (max-width: 480px) {
 }
