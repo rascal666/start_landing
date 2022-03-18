@@ -1,8 +1,9 @@
 /** @format */
 .toolbar-rascal {
-	padding-top: 56px;
-	z-index: 3;
-	position: relative;
+    padding: 60px 0 0;
+    z-index: 3;
+    position: relative;
+	fill: $forToolbar;
 	.wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -46,12 +47,16 @@
 			max-width: max-content;
 			width: 100%;
 			align-items: center;
+			a{
+				width: 40px;
+				
+			}
 		}
 	}
 	.numder_toolbar {
 		margin-left: 10px;
 		margin-right: 10px;
-		color: #fff;
+		color: $forToolbar;
 	}
 	.logo {
 		width: 150px;

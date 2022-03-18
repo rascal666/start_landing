@@ -31,7 +31,7 @@
 }
 
 .section-buttonToolbar {
-	@include btn(14px, #ffffff00, #fff, #fff, 8px 30px);
+	@include btn(14px, #ffffff00, $forToolbar, $forToolbar, 8px 30px);
 	border-radius: 100px;
 	max-width: 200px;
 	overflow: hidden;
@@ -55,7 +55,7 @@
 }
 .section-buttonToolbar:hover {
 	cursor: pointer;
-	background: $forButton;
+	background: $forToolbar;
 	color: #fff !important;
 }
 
