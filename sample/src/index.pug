@@ -1,0 +1,27 @@
+<!-- @format -->
+include ./miksins.pug
+
+
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		title= "оставить товары"
+	body.js-body
+		.main_content
+			header
+				include ./modules/toolbar.pug
+				.header
+					.content
+						.header__wrapper
+							.header__text
+								.header__heading.section_h1 Заголовок супер-акции
+								img.mobile__img(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/301144/content_illyustratsiya.png")
+								.offer
+									p Каждому клиенту, кто впервые подключит платное размещение на Пульсе цен, гарантированно дарим скидку 30% на все пакеты размещения: «Старт», «Вся Россия» и «Региональные кластеры».
+									
+							.header__img
+								img(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/301144/content_illyustratsiya.png")
+				include ./modules/sale.pug
+		include ./modules/footer.pug
+	p {crm_analytics:show_page(network_actions,НК_Оставить_товары_curData)}

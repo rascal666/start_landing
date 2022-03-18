@@ -1,0 +1,65 @@
+/** @format */
+
+.sale {
+	margin-top: calc(var(--block) + 20px);
+	.sale__wrapper {
+		@include grid(var(--block), 1fr 2fr);
+	}
+	.sale__banner {
+		padding: 30px;
+		background: #828995bd;
+		border-radius: 20px;
+		font-weight: 700;
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		.banner__header {
+			font-size: 62px;
+			color: $main_text_color;
+		}
+		.banner__number {
+			font-size: 112px;
+		}
+	}
+	.sale__description {
+		background: #ffffff;
+		border-radius: 20px;
+		color: $main_text_color;
+		padding: calc(var(--block) - 10px) var(--block);
+	}
+	.list {
+		font-size: 16px;
+	}
+}
+.end {
+	padding: calc(var(--block) + 20px) 0;
+	.end__wrapper {
+		max-width: 1024px;
+		display: grid;
+		grid-gap: var(--block);
+	}
+}
+
+@media (max-width: 1024px) {
+	.sale .sale__wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+		grid-gap: var(--block);
+	}
+}
+
+@media (max-width: 840px) {
+	.sale {
+		.sale__banner {
+			.banner__header {
+				font-size: 34px;
+				color: #2e3b4f;
+			}
+			.banner__number {
+				font-size: 81px;
+			}
+		}
+	}
+}
