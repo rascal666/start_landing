@@ -706,7 +706,7 @@ a:hover {
   letter-spacing: 0.06em;
   font-size: 14px;
   font-weight: 600;
-  background: linear-gradient(234.71deg, #4483E2 -106.32%, #919AEA 123.07%);
+  background: linear-gradient(234.71deg, #4483e2 -106.32%, #919aea 123.07%);
   border-radius: 5px;
   width: 100%;
   max-width: 410px;
@@ -716,7 +716,7 @@ a:hover {
   align-content: center;
   color: #fff !important;
   transition-duration: 0.5s;
-  border: 1px solid #919AEA;
+  border: 1px solid #919aea;
   text-align: center;
   cursor: pointer;
   border-radius: 100px;
@@ -767,15 +767,15 @@ a:hover {
 
 .section-button:hover {
   cursor: pointer;
-  background: linear-gradient(234.71deg, #4483E2 -106.32%, #919AEA 123.07%);
+  background: linear-gradient(234.71deg, #4483e2 -106.32%, #919aea 123.07%);
   color: #fff !important;
-  border: linear-gradient(234.71deg, #4483E2 -106.32%, #919AEA 123.07%);
+  border: linear-gradient(234.71deg, #4483e2 -106.32%, #919aea 123.07%);
 }
 
 .section-buttonAccent:hover {
   cursor: pointer;
   background: rgba(255, 255, 255, 0);
-  color: #919AEA !important;
+  color: #919aea !important;
 }
 
 .section-buttonToolbar:hover {
@@ -911,6 +911,7 @@ a:hover {
     font-size: 14px;
   }
 }
+/** @format */
 * {
   margin: 0;
   padding: 0;
@@ -918,7 +919,7 @@ a:hover {
 
 .futer_main {
   max-width: 1920px;
-  background: #1D4262;
+  background: #1d4262;
   color: #fff;
   letter-spacing: 0.04em;
   margin: auto;
@@ -936,16 +937,17 @@ a:hover {
 }
 
 .numder_futer {
-  color: #fff !important;
+  color: #2b8dc2 !important;
 }
 
 .numder_futer img {
   max-width: 40px;
+  fill: #2b8dc2;
 }
 
 .footer__massagers svg {
   width: 40px;
-  fill: #028DD8;
+  fill: #2b8dc2;
 }
 
 .agreement {
@@ -959,7 +961,7 @@ a:hover {
 
 .futer_main a {
   text-decoration: none;
-  color: #fff;
+  color: #2b8dc2;
 }
 
 .massenger_futer {
@@ -969,6 +971,9 @@ a:hover {
   max-width: max-content;
   width: 100%;
   align-items: center;
+}
+.massenger_futer svg {
+  fill: #2b8dc2;
 }
 
 .numder_futer {
@@ -1052,6 +1057,9 @@ a:hover {
   padding: 60px 0 0;
   z-index: 3;
   position: relative;
+  fill: #fff;
+}
+.toolbar-rascal a {
   fill: #fff;
 }
 .toolbar-rascal .wrapper {

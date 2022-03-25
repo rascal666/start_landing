@@ -1,9 +1,12 @@
 /** @format */
 .toolbar-rascal {
-    padding: 60px 0 0;
-    z-index: 3;
-    position: relative;
+	padding: 60px 0 0;
+	z-index: 3;
+	position: relative;
 	fill: $forToolbar;
+	a {
+		fill: $forToolbar;
+	}
 	.wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -47,9 +50,8 @@
 			max-width: max-content;
 			width: 100%;
 			align-items: center;
-			a{
+			a {
 				width: 40px;
-				
 			}
 		}
 	}
