@@ -56,7 +56,7 @@
 .section-buttonToolbar:hover {
 	cursor: pointer;
 	background: $forToolbar;
-	color: #fff !important;
+	color: rgb(97, 97, 97) !important;
 }
 
 // заголовки
@@ -99,7 +99,6 @@
 		display: grid;
 		align-content: center;
 		min-height: 30px;
-	
 	}
 	.list__li_circle {
 		position: relative;
@@ -149,8 +148,8 @@
 		grid-template-columns: 1fr;
 	}
 	.section-buttonToolbar {
-		padding: 8px 20px;
-		font-size: 12px;
+		padding: 8px 8px;
+		font-size: 11px;
 	}
 	.section-buttonFooter {
 		letter-spacing: 0.06em;

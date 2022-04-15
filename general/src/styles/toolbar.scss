@@ -63,6 +63,9 @@
 	.logo {
 		width: 150px;
 	}
+	.toolbarColor {
+		fill: $forToolbar;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -126,6 +129,11 @@
 		padding-top: 20px;
 		.heading {
 			font-size: 24px;
+		}
+		.toolbar__block {
+			.toolbar__icon a {
+				width: 24px;
+			}
 		}
 	}
 	.logo {
