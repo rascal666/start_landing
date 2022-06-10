@@ -38,8 +38,9 @@
 }
 
 .section-buttonFooter {
-	@include btn(14px, #ffffff00, $main_text_color, $main_text_color, 8px 30px);
+	@include btn(14px, #ffffff00, $forFooter, $forFooter, 8px 30px);
 	border-radius: 100px;
+	width: fit-content;
 }
 
 .section-button:hover {

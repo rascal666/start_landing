@@ -1,6 +1,6 @@
 .sale
     .content
-        .sale__wrapper.call3
+        .sale__wrapper.call2
             .sale__item.item 
                 .item__title.section_h3 Подарок-1 
                 .item__offer 
@@ -31,7 +31,22 @@
                         .list__li_circle выгода 3
                         .list__li_circle выгода 4
                 +button('{crm_analytics:click_link(Кнопка сбора данных,#order,network_actions,НК_Оставить_товары_Консультация_curData)}', 'Кнопка сбора данных', 'section-buttonAccent')
-            .sale__item.item.call33 
+            .sale__item.item 
+                .item__title.section_h3 Подарок-1 
+                .item__offer 
+                    p Краткое описание подарка в 2-3 строки, или привлекательное УТП. В философских текстах можно найти разные вопросы. Можно ли познать мир? Существует ли Бог? 
+                .item__btn.btn
+                    .btn__plan(item='5')
+                    p.btn__text Выгоды
+                    img.btn__icon(src="https://www.pulscen.ru/system/ckeditor_assets/pictures/300222/content_vector_16.png", alt="")
+                .item__hidden(item-hidden='5')
+                    .list 
+                        .list__li_circle выгода 1
+                        .list__li_circle выгода 2
+                        .list__li_circle выгода 3
+                        .list__li_circle выгода 4
+                +button('{crm_analytics:click_link(Кнопка сбора данных,#order,network_actions,НК_Оставить_товары_Консультация_curData)}', 'Кнопка сбора данных', 'section-buttonAccent')
+            .sale__item.item 
                 .item__title.section_h3 Подарок-1 
                 .item__offer 
                     p Краткое описание подарка в 2-3 строки, или привлекательное УТП. В философских текстах можно найти разные вопросы. Можно ли познать мир? Существует ли Бог? 
